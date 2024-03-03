@@ -19,3 +19,7 @@ dependencies {
 //    testImplementation(libs.kotest.assertions)
 //    testImplementation(libs.mockk)
 }
+
+application {
+    mainClass.set("uk.co.baconi.oauth.api.session.info.MainKt")
+}
